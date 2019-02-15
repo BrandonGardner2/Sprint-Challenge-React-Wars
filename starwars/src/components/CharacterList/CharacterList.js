@@ -4,14 +4,19 @@ import "./CharacterList.css";
 
 import Character from "../Character/Character";
 
-const CharacterList = props => {
-  return (
-    <div className="character-list">
-      {props.charList.map(character => (
-        <Character char={character} key={character.created} />
-      ))}
-    </div>
-  );
-};
+class CharacterList extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div className="character-list">
+        {this.props.charList.map(character => (
+          <Character char={character} key={character.created} />
+        ))}
+      </div>
+    );
+  }
+}
 
 export default CharacterList;

@@ -12,6 +12,7 @@
 }
 
 .character h2 {
+  border-bottom: 2px #ffd700 solid;
   margin: 5px 0;
 }
 
