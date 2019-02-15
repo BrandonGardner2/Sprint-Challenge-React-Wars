@@ -26,7 +26,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-#### React JS is a JavaScript library that was created by Facebook to handle complex state management. It does so by allowing a web application to be broken down into components that have the ability to hold 'state' if needed. This state can be passed around only where it is needed and updated throuh set state calls.
+#### React JS is a JavaScript library that was created by Facebook to handle complex state management. It does so by allowing a web application to be broken down into components that have the ability to hold 'state' if needed. This state can be passed around only where it is needed and updated through set state calls.
 
 - [ ] What does it mean to _think_ in react?
 
