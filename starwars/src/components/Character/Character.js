@@ -4,10 +4,15 @@ import "./Character.css";
 import CharacterMovies from "./CharacterMovies/CharacterMovies";
 
 const Character = props => {
+  console.log(props);
   return (
     <div className="character">
-      <h2>Hello from character</h2>
-      <p>please don't pretty me</p>
+      <h2>{props.char.name}</h2>
+      <ul className="character-ul">
+        <li>Birth Year: {props.char.birth_year}</li>
+        <li>Eye Color: {props.char.eye_color}</li>
+        <li>Height: {props.char.height}</li>
+      </ul>
     </div>
   );
 };
