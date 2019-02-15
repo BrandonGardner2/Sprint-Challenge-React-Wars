@@ -16,11 +16,16 @@
   margin: 5px 0;
 }
 
+.character h3 {
+  margin: 0 0 5px 0;
+}
+
 .character ul {
   margin-bottom: 5px 0;
 }
 
-.character-ul {
+.character-ul,
+.character-movies {
   list-style: none;
   list-style-position: outside;
   padding: 0;

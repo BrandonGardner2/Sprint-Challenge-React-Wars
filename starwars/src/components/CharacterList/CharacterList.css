@@ -15,4 +15,12 @@
   padding: 3px;
   cursor: pointer;
   margin: 0 10px;
+  transition: 0.2s;
+}
+
+#page-numbers a:hover {
+  transition: 0.2s;
+  border: 1px solid black;
+  color: black;
+  background: white;
 }

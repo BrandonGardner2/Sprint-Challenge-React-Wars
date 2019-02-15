@@ -1,6 +1,8 @@
 import React from "react";
 import "./Character.css";
 
+import CharacterMovies from "../Character/CharacterMovies/CharacterMovies";
+
 const Character = props => {
   const { char } = props;
   return (
@@ -10,6 +12,10 @@ const Character = props => {
         <li>Birth Year: {char.birth_year}</li>
         <li>Eye Color: {char.eye_color}</li>
         <li>Height: {char.height}</li>
+      </ul>
+      <ul className="character-movies">
+        <h3>Movies:</h3>
+        <CharacterMovies movies={char.films} />
       </ul>
     </div>
   );
