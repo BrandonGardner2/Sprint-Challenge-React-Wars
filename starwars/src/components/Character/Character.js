@@ -2,7 +2,6 @@ import React from "react";
 import "./Character.css";
 
 const Character = props => {
-  console.log(props);
   return (
     <div className="character">
       <h2>{props.char.name}</h2>
