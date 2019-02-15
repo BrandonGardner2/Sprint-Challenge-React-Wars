@@ -1,26 +1,26 @@
 .character {
-  background: whitesmoke;
+  background-image: url("../../charbg.jpg");
+  background-size: cover;
+  color: #ffd700;
+  font-family: star-wars;
   width: 90%;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 5px 0;
   margin: 10px auto;
-}
-
-.character h2,
-p {
-  margin: 0;
 }
 
 .character h2 {
   margin: 5px 0;
 }
 
-.character p {
+.character ul {
   margin-bottom: 5px 0;
 }
 
 .character-ul {
   list-style: none;
+  list-style-position: outside;
+  padding: 0;
 }

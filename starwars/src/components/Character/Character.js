@@ -1,8 +1,6 @@
 import React from "react";
 import "./Character.css";
 
-import CharacterMovies from "./CharacterMovies/CharacterMovies";
-
 const Character = props => {
   console.log(props);
   return (
