@@ -13,10 +13,8 @@ const Character = props => {
         <li>Eye Color: {char.eye_color}</li>
         <li>Height: {char.height}</li>
       </ul>
-      <ul className="character-movies">
-        <h3>Movies:</h3>
-        <CharacterMovies movies={char.films} />
-      </ul>
+      <h3>Movies:</h3>
+      <CharacterMovies movies={char.films} />
     </div>
   );
 };
