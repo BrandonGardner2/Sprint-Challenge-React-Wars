@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+#### React JS is a JavaScript library that was created by Facebook to handle complex state management. It does so by allowing a web application to be broken down into components that have the ability to hold 'state' if needed. This state can be passed around only where it is needed and updated throuh set state calls.
+
 - [ ] What does it mean to _think_ in react?
+
+#### Thinking in React means breaking down a web application into smaller componenents. I.e, News Feed Component that contains Articles that contains Article Titles, Article Bodies, and so forth. It also requires thinking about how each component will be used, for data manipulation, or purely presentational.
 
 - [ ] Describe state.
 
+#### State is a snapshot of defined parameters at any given time in the application. For example if we put a new piece of state called counter that starts at 0. For the entire time the state of that counter is 0, but when somebody manually changes it to 1, the state of the counter becomes 1. Tracking this allows us to use it to dynamically render data.
+
 - [ ] Describe props.
+
+#### Props are functions or state that are being passed from a higher order component down the tree. There are really on limits to how far props can go down but it will get very confusing after a few levels. They are normally used to allow a lower level component to manipulate something that the higher order component is keeping track of or to display data provided by a higher component.
 
 ## Project Set Up
 
@@ -43,15 +51,15 @@ Follow these steps to set up and work on your project:
 - [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
 - [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-Follow these steps for completing your project.
+      Follow these steps for completing your project.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [ ] PM then will count the HW as done by merging the branch back into master.
 
 Please note:
 
