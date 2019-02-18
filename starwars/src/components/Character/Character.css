@@ -12,15 +12,25 @@
 }
 
 .character h2 {
+  border-bottom: 2px #ffd700 solid;
   margin: 5px 0;
+}
+
+.character h3 {
+  margin: 0 0 5px 0;
 }
 
 .character ul {
   margin-bottom: 5px 0;
 }
 
-.character-ul {
+.character-ul,
+.character-movies {
   list-style: none;
   list-style-position: outside;
   padding: 0;
+}
+
+.character-movies {
+  margin-top: 0;
 }

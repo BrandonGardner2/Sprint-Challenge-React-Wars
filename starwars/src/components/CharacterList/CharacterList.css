@@ -6,3 +6,23 @@
   border-radius: 10px;
   padding: 10px 0;
 }
+
+#page-numbers a {
+  background: black;
+  border: 1px solid #ffd700;
+  color: #ffd700;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: 0.2s;
+  display: inline-block;
+  width: 20px;
+}
+
+#page-numbers a:hover {
+  transition: 0.2s;
+  border: 1px solid black;
+  color: black;
+  background: white;
+}
